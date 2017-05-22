@@ -2,7 +2,9 @@
 title: Add a Promotional Header to Your Shopify Theme
 date: 2015-12-01
 tags: how-to
-permalink: articles/add-a-promotional-header-shopify-theme-2015
+categories: 
+ - articles
+ - shopify
 ---
 
 I just wanted to write up a quick how-to on adding a little promotional div to the top of your Shopify store. This could come in handy with the holidays coming up! In my shops, we're using it to promote flash coupon codes and shipping discounts.

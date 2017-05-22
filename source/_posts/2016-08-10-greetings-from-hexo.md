@@ -2,7 +2,7 @@
 title: Greetings from Hexo!
 date: 2016-08-10 16:25:58
 tags: blog
-permalink: blog/2016-08-10-greetings-from-hexo
+categories: blog
 ---
 
 

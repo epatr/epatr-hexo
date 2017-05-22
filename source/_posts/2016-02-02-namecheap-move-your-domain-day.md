@@ -2,7 +2,7 @@
 title: How to move your Godaddy domain to Namecheap for "Move Your Domain Day"
 date: 2016-02-02
 tags: articles
-permalink: articles/how-to-move-your-godaddy-domain-to-namecheap-for-move-your-domain-day-2016
+categories: articles
 ---
 
 Today, [Namecheap is running a sale for $4 domain transfers](https://www.namecheap.com/campaigns/2016/mydd.aspx) for "Move Your Domain Day". I’ve used Namecheap for about a decade now and think they're a great registrar. I even recommend their shared hosting for clients that just need simple hosting that works. To honor this wonderful day, I've decided to put together this guide to help people get their domains out of Godaddy into an honest registrar. 
