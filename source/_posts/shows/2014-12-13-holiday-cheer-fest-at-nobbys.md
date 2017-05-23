@@ -1,8 +1,12 @@
 ---
+title: "Past Event: Holiday Cheer Fest at Nobby’s"
+date: 2014-12-13
 layout: post
 category: shows
-title: Holiday Cheer Fest at Nobby’s
-tags: burl nobbys
+tags: 
+ - burl 
+ - nobbys
+ - st. augustine
 flyer_src: https://s3.amazonaws.com/dev-ukyrgf/www/epatr/flyers/2014-12-13-fb.jpg
 ---
 

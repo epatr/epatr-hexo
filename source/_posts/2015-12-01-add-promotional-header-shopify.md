@@ -1,10 +1,14 @@
 ---
 title: Add a Promotional Header to Your Shopify Theme
 date: 2015-12-01
-tags: how-to
-categories: 
- - articles
+tags: 
+ - how-to 
  - shopify
+ - css
+ - javascript
+ - ruby
+ - liquid
+category: articles
 ---
 
 I just wanted to write up a quick how-to on adding a little promotional div to the top of your Shopify store. This could come in handy with the holidays coming up! In my shops, we're using it to promote flash coupon codes and shipping discounts.
@@ -16,7 +20,7 @@ It is essentially just going to be a full-width div with one-line of text and a 
 Open your [`theme.liquid`](https://help.shopify.com/themes/development/layouts/theme-liquid) file (found in the `/layouts` folder), and right after your opening `<body>` tag add the following bit of code:
 
 {% codeblock lang:ruby theme.liquid %}{% raw %}
-{% if settings.show_promotionalBar %}
+{% if settings.promotionalBar-visible %}
   {% include 'promotionalBar' %}
 {% endif %}  
 {% endraw %}{% endcodeblock %}
@@ -27,7 +31,7 @@ First, let's create the snippet. In your [`snippets`](https://help.shopify.com/t
 
 {% codeblock lang:html promotionalBar.liquid %}{% raw %}
 <div class="promotionalBar">
-  {{ settings.promotionalBar_text }}
+  {{ settings.promotionalBar-text }}
 </div>
 {% endraw %}{% endcodeblock %}
 
@@ -37,8 +41,8 @@ First, let's create the snippet. In your [`snippets`](https://help.shopify.com/t
 
 {% codeblock lang:scss styles.css.liquid %}{% raw %}
 // promotionalBar.liquid
-$promotional-bar-background-color: {{ settings.promotionalBar_background_color }};
-$promotional-bar-text-color: {{ settings.promotionalBar_text_color }};
+$promotional-bar-background-color: {{ settings.promotionalBar-background-color }};
+$promotional-bar-text-color: {{ settings.promotionalBar-text-color }};
 {% endraw %}{% endcodeblock %}
 
 And then add this selector alongside your other classes:
@@ -53,7 +57,7 @@ And then add this selector alongside your other classes:
 }
 {% endraw %}{% endcodeblock %}
 
-If you don't have variables in your stylesheet, just move the `settings.promotionalBar_` from the first codeblock variables directly into the CSS.
+If you don't have variables in your stylesheet, just move the `settings.promotionalBar-*` from the first codeblock variables directly into the CSS.
 
 
 # Create the settings to control it
@@ -69,20 +73,20 @@ Now, open your [`settings_schema.json`](https://help.shopify.com/themes/developm
             "content": "Enable or disable the promotional bar" 
         }, {
             "type": "checkbox",
-            "id": "show_promotionalBar",
+            "id": "promotionalBar-visible",
             "label": "Show Promotional Bar at the top of every page?"
         }, {
             "type": "text",
-            "id": "promotionalBar_text",
+            "id": "promotionalBar-text",
             "label": "Message for promotional bar"
         }, {
             "type": "color",
-            "id": "promotionalBar_background_color",
+            "id": "promotionalBar-background-color",
             "label": "Background color",
             "default": "#000000"
         }, {
             "type": "color",
-            "id": "promotionalBar_text_color",
+            "id": "promotionalBar-text-color",
             "label": "Text color",
             "default": "#FFFFFF"
         }

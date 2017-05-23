@@ -1,7 +1,7 @@
 ---
 title: How to move your Godaddy domain to Namecheap for "Move Your Domain Day"
 date: 2016-02-02
-tags: articles
+tags: namecheap
 categories: articles
 ---
 
