@@ -1,0 +1,16 @@
+
+site:
+  title: Eric Patrick
+  subtitle: St. Augustine, FL
+  description: Computer programming, music, and more
+
+menu: 
+  Home: /
+  Portfolio: /web
+  Music: /music
+  Blog: /blog
+  About: /about
+  Contact: /contact
+
+
+

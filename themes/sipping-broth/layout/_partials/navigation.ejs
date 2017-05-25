@@ -1,0 +1,7 @@
+<nav>
+    <ul>
+        <% for (var link in site.data.global.menu) { %>
+        <li><a href="<%= site.data.global.menu[link] %>"> <%= link %> </a></li>
+        <% } %>
+    </ul>
+</nav>

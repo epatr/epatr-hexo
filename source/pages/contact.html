@@ -1,0 +1,35 @@
+---
+title: Contact
+permalink: contact/
+---
+
+<section id="contact" class="three">
+    <div class="container">
+
+        <header>
+            <h2>Contact</h2>
+        </header>
+
+        <p>Please get in touch if you have any questions or would like to discuss working together. I look forward to hearing from you!</p>
+
+        <script>
+            var user = "eric";
+            var host = "epatr";
+            var action = user + "@" + host + ".com";
+            document.write("<form method=\"post\" action=\"https://formspree.io/" + action + "\">");
+        </script>
+
+            <div class="row">
+                <div class="6u 12u$(mobile)"><input type="text" name="name" placeholder="Name" /></div>
+                <div class="6u$ 12u$(mobile)"><input type="email" name="_replyto" placeholder="Email" /></div>
+                <div class="12u$">
+                    <textarea name="message" placeholder="Message"></textarea>
+                </div>
+                <div class="12u$">
+                    <input type="submit" value="Send" />
+                </div>
+            </div>
+        </form>
+
+    </div>
+</section>

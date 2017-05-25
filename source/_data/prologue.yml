@@ -1,0 +1,262 @@
+
+intro: "
+<!-- Intro -->
+<section id=\"top\" class=\"one dark cover\">
+    <div class=\"container\">
+
+        <header>
+            <h2 class=\"alt\">Hello! I'm <strong>Eric Patrick</strong>, a computer programmer from <span>St. Augustine, FL</span></h2>
+            <p>(You may also recognize me from <a href=\"http://burl.rocks\" target=\"_blank\">Burl</a>. No..?)</p>
+        </header>
+
+    </div>
+</section>
+"
+
+music: "
+<!-- Music -->
+<section id=\"music\" class=\"two\">
+    <div class=\"container\">
+
+        <header>
+            <h2>Music</h2>
+        </header>
+
+        <p>I studied classical guitar under a student of Segovia at the Stetson University Community School of Music. 
+            There, I performed in their guitar ensemble from 1996-1999. I've been playing guitar and bass in bands for the past 15 years, performing all over the southeast USA. 
+            I strongly believe in making my music accessible for free to everyone, so feel free to download these albums and enjoy! 
+        </p>
+
+        <div class=\"row\">
+            <div class=\"4u 12u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://burlmusic.bandcamp.com/album/burl\" class=\"image fit\"><img src=\"images/album-burlep.jpg\"></a>
+                    <header>
+                        <h3>Burl - Burl EP</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"4u 6u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://soulmanandbreeze.bandcamp.com/album/summer-2006-ep\" class=\"image fit\"><img src=\"images/album-soulmanandbreezeep.jpg\"></a>
+                    <header>
+                        <h3>Soulman &amp; Breeze - Summer EP</h3>
+                    </header>
+                </article>
+                </div>
+            <div class=\"4u 6u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://soulmanandbreeze.bandcamp.com/album/demo\" class=\"image fit\"><img src=\"images/album-soulmanandbreezediscography.jpg\"></a>
+                    <header>
+                        <h3>Soulman &amp; Breeze - Collection</h3>
+                    </header>
+                </article>
+                </div>
+        </div>
+
+        <div class=\"row\">
+            <div class=\"3u 4u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://dildozerfl.bandcamp.com/album/the-titular-tape\" class=\"image fit\"><img src=\"images/album-dildozer.jpg\"></a>
+                    <header>
+                        <h3>Dildozer - The Titular Tape</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"3u 4u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://idiotsonice.bandcamp.com/\" class=\"image fit\"><img src=\"images/album-idiotsonice.jpg\"></a>
+                    <header>
+                        <h3>Idiots On Ice - Surf 13</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"3u 4u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"http://epatr.bandcamp.com\" class=\"image fit\"><img src=\"images/album-calasaffair.jpg\"></a>
+                    <header>
+                        <h3>Obviously You Don't Play Sports - The Calas Affair</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"3u 4u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"http://epatr.bandcamp.com\" class=\"image fit\"><img src=\"images/album-lfaga.jpg\"></a>
+                    <header>
+                        <h3>Light Fuse and Get Away - Greatest Hits</h3>
+                    </header>
+                </article>
+            </div>
+        </div>
+
+    </div>
+</section>
+"
+
+
+about: " 
+<!-- About Me -->
+<section id=\"about\" class=\"four\">
+    <div class=\"container\">
+
+        <header>
+            <h2>About Me</h2>
+        </header>
+
+        <div class=\"image featured\"><img src=\"images/pic-me.jpg\"></div>
+
+        <p>I grew up in Deland, FL and started programming when I was a teenager. I'm currently studying computer science at SJR State. In the early 2000s I began hosting house shows in Deland, FL, and I've been heavily involved with the DIY music scene ever since. Not a day has gone by when I wasn't in a band actively writing and performing original music. I fell in love with St. Augustine's extremely supportive music scene and moved here a few years ago. Fortunately, living in the nation's oldest city means there is plenty of old technology that needs refreshing!</p>
+
+    </div>
+</section>
+"
+
+contact: "
+<!-- Contact -->
+<section id=\"contact\" class=\"three\">
+    <div class=\"container\">
+
+        <header>
+            <h2>Contact</h2>
+        </header>
+
+        <p>Please get in touch if you have any questions or would like to discuss working together. I look forward to hearing from you!</p>
+
+        <script>
+            var user = \"eric\";
+            var host = \"epatr\";
+            var action = user + \"@\" + host + \".com\";
+            document.write('<form method=\"post\" action=\"https://formspree.io/\" + action + \"\">');
+        </script>
+
+            <div class=\"row\">
+                <div class=\"6u 12u$(mobile)\"><input type=\"text\" name=\"name\" placeholder=\"Name\" /></div>
+                <div class=\"6u$ 12u$(mobile)\"><input type=\"email\" name=\"_replyto\" placeholder=\"Email\" /></div>
+                <div class=\"12u$\">
+                    <textarea name=\"message\" placeholder=\"Message\"></textarea>
+                </div>
+                <div class=\"12u$\">
+                    <input type=\"submit\" value=\"Send\" />
+                </div>
+            </div>
+        </form>
+
+    </div>
+</section>
+"
+
+portfolio: "
+
+<!-- Portfolio -->
+<section id=\"portfolio\" class=\"three\">
+    <div class=\"container\">
+
+        <header>
+            <h2>Projects</h2>
+        </header>
+
+        <p>For the past five years, I've been the in-house system administrator and web developer for <a href=\"http://toughgearinc.com\" target=\"_blank\">Tough Gear, Inc</a>. 
+            There, I developed the Shopify Plus stores for Survival Straps and Active Edge Gear. 
+            I've also been a freelance consultant for a little over a decade, providing solutions to local businesses, artists, and non-profits.
+        </p>
+
+        <div class=\"row\">
+            <div class=\"4u 12u$(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://www.survivalstraps.com\" target=\"_blank\" class=\"image fit\"><img src=\"images/portfolio-survivalstraps.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>Survival Straps &reg;</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"4u 12u$(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://new-light-portrait.myshopify.com\" target=\"_blank\" class=\"image fit\"><img src=\"images/portfolio-newlight.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>New Light Portrait &amp; Sign</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"4u$ 12u$(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://www.activeedgegear.com\" target=\"_blank\" class=\"image fit\"><img src=\"images/portfolio-activeedgegear.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>Active Edge &trade;</h3>
+                    </header>
+                </article>
+            </div>
+        </div>
+
+        <div class=\"row\">
+            <div class=\"3u 6u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"http://burl.rocks\" target=\"_blank\" class=\"image fit\"><img src=\"images/portfolio-burl.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>Burl</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"3u 6u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"http://leevanarsdall.com\" target=\"_blank\" class=\"image fit\"><img src=\"images/portfolio-leevanarsdall.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>Lee Van Arsdall</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"3u 6u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://www.reddit.com/r/Earwolf/\" target=\"_blank\" class=\"image fit\"><img src=\"images/portfolio-r-earwolf.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>/r/Earwolf</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"3u 6u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"http://www.nobbysfl.com\" target=\"_blank\" class=\"image fit\"><img src=\"images/portfolio-nobbys.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>Nobby's Bar &amp; Cafe</h3>
+                    </header>
+                </article>
+            </div>
+        </div>
+
+        <div class=\"row\">
+            <div class=\"3u 6u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"http://www.mattbuzan.com\" target=\"_blank\" class=\"image fit\"><img src=\"images/portfolio-mattbuzan.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>Matt Buzan</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"3u 6u(mobile)\">
+                <article class=\"item\">
+                    <a href=\"https://www.reddit.com/r/television/\" target=\"_blank\" class=\"image fit\"><img src=\"images/portfolio-r-television.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>/r/television</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"3u 6u(mobile)\">
+                <article class=\"item\">
+                    <a class=\"image fit\"><img src=\"images/portfolio-fuckingsunshinestate.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>Sunshine State</h3>
+                    </header>
+                </article>
+            </div>
+            <div class=\"3u 6u(mobile)\">
+                <article class=\"item\">
+                    <a class=\"image fit\"><img src=\"images/portfolio-soulmanandbreeze.jpg\" alt=\" \" /></a>
+                    <header>
+                        <h3>Soulman &amp; Breeze</h3>
+                    </header>
+                </article>
+            </div>
+        </div>
+
+    </div>
+</section>
+"

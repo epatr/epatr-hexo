@@ -1,8 +1,4 @@
 <div>
-    <h1><%= config.author %></h1>
-    <h3><%= config.subtitle %></h3>
-</div>
-<div>
     <ul>
         <% page.posts.each(function(post){ %>
         <li>
@@ -18,3 +14,5 @@
         <% }) %>
     </ul>
 </div>
+
+<p><%- site.data.global.about %></p>

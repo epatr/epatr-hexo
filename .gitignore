@@ -6,4 +6,5 @@ node_modules/
 public/
 .deploy*/
 _jekyll/
-themes/prologue/
+*.jpg
+themes/prologue/*
