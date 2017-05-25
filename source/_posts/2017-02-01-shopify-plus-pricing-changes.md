@@ -6,9 +6,9 @@ tags:
 categories: articles
 ---
 
-Shopify sent out a newsletter this morning to all of their Plus merchants announcing a new pricing plan. The broad stroke of it is that unless your store earns $800,000 per month, the monthly cost of Plus will increase to $2,000. Beyond 800k, you will be charged .25% of your monthly sales up to $40,000.
+Shopify sent out a newsletter this morning to all of their Plus merchants announcing a new pricing plan, and it's not looking good for any of my stores. Unless your store earns $800,000 per month, the monthly cost of Plus will increase to a minimum $2,000. Beyond that 800,000, you will be charged .25% of your monthly sales, up to $40,000.
 
-At my job, this will triple the amount we pay for our stores. In fact, since we use our own payment gateway rather than Shopify Payments, we'll also be paying .15% on each dollar we earn.
+For my shops, this will triple the amount we pay. On top of that, since we use our own payment gateway rather than Shopify Payments, we'll also be paying .15% on each dollar we earn.
 
 Here is the email we received in full:
 
@@ -50,4 +50,4 @@ I have outlined below how and when the pricing changes impact <em>your</em> busi
 
 <hr>
 
-The email also had a 4-page PDF from the 'VP &amp; GM of Shopify Plus', which you can view here: <a href="http://epatr.com/wp-content/uploads/2017/02/Loren-Padelford-Letter.pdf">Loren Padelford Letter</a>
+The email also had a 4-page PDF from the 'VP &amp; GM of Shopify Plus', which you can view here: <a href="https://s3.amazonaws.com/dev-ukyrgf/shopify/Loren-Padelford-Letter.pdf">Loren Padelford Letter</a>
