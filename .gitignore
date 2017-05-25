@@ -8,3 +8,6 @@ public/
 _jekyll/
 *.jpg
 themes/prologue/*
+themes/light/*
+themes/tranquilpeak/*
+themes/yilia/*
