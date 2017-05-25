@@ -124,10 +124,10 @@ contact: "
         <p>Please get in touch if you'd like to talk more about.. well, anything on here! I look forward to hearing from you.</p>
 
         <script>
-            var user = \"eric\";
-            var host = \"epatr\";
-            var action = user + \"@\" + host + \".com\";
-            document.write('<form method=\"post\" action=\"https://formspree.io/\" + action + \"\">');
+            var user = 'eric';
+            var host = 'epatr';
+            var action = user + '@' + host + '.com';
+            document.write('<form method=\"post\" action=\"https://formspree.io/' + action + '\">');
         </script>
 
             <div class=\"row\">
